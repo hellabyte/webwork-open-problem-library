@@ -49,7 +49,7 @@ Work = \{ans_rule(40)\}
 
 END_TEXT
 
-$answer = $W*$L/2;
+$answer = $W*$L/2; 
 
 ANS(num_cmp("$answer", units => 'lbf'));
 

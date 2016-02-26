@@ -48,8 +48,8 @@ the height of the cable in feet is $BR
 
 \[ h(x)=10 +($a)( x^{1.5}) . \]
 
-The cable weighs $w pounds per linear foot.   $BR
-Find the weight of the cable. $BR
+The cable has a linear density of $w pounds per linear foot. $BR
+Find the mass of the cable between the two poles. $BR
 \{ans_rule(60)\}
 EOT
 

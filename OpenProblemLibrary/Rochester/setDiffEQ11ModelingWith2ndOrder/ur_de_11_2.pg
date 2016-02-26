@@ -38,19 +38,18 @@ BEGIN_TEXT
 A steel ball weighing 128 pounds is suspended from a spring.
 This stretches the spring \(\frac{128}{$s} \) feet.
  $PAR
-The ball is started in motion from the
-equilibrium position
+The ball is started in motion from the equilibrium position
 with a downward velocity of \($n \) feet per second.$BR
-The air resistance (in pounds) of the  moving ball
-numerically equals 4 times its
-velocity (in feet per second) .$PAR
+The air resistance (in pounds) of the moving ball is
+4 times its velocity (in feet per second).
+$PAR
 Suppose that after t seconds the ball is y feet below its rest position.
 Find y in terms of t. (Note that this means that the positive direction for y is down.)
 $BR
 $BR 
 \(y= \) \{ans_box(2,80)\}
 $PAR
-Take as the gravitational acceleration 32 feet
+Let gravitational acceleration be 32 feet
 per second per second.
 END_TEXT
 
@@ -61,7 +60,7 @@ mass. This is causing some confusion --- I hope this hint helps:
 $PAR
 Pounds (lb) is a unit of force, not mass.  Using \( mg=F \) and
 \( g = 32\,\text{ft}/\text{sec}^2 \), we see that an object at the surface
-of the earth that weighs 32 lbs (i.e. the force on it is 32 lbs)
+of the earth that has a mass of 32 lbs (i.e. the force on it is 32 lbs)
 will have a mass of 1 slug (the unit of mass in the English units is called
 the slug -- really!)  So one slug weighs 32 lbs at the surface of the earth
 (or \( 1\,\text{lb} = (1/32)\times\text{slug}\times\text{ft}/\text{sec}^2 \)).

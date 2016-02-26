@@ -37,10 +37,10 @@ $showPartialCorrectAnswers = 0;
 );
 $graphToggle=&random(0,2);
 @responses = (
-"The weight is moving upward on this interval.",
-"The weight is moving downward on this interval.",
-"The upward velocity of the weight is increasing on this interval.",
-"The upward velocity of the weight is decreasing on this interval.",
+"The mass is moving upward on this interval.",
+"The mass is moving downward on this interval.",
+"The upward velocity of the mass is increasing on this interval.",
+"The upward velocity of the mass is decreasing on this interval.",
 "The (signed) distance from the starting point is increasing on this interval.",
 "The (signed) distance from the starting point is decreasing on this interval.",
 );
@@ -58,8 +58,8 @@ $answerRef[2] = [ "ace","ade","bdf","bcf","bcf" ];
 #print @finalAnwers;
 TEXT(&image($pictID[$graphToggle], width=>241, height=>199), $BR, 
 qq!
-A 5 gram weight is suspended from a string next to a ruler held vertically.
-The string is jiggled up and down and the graph of the POSITION of the weight vs. time in
+A 5 gram mass is suspended from a string next to a ruler held vertically.
+The string is jiggled up and down and the graph of the POSITION of the mass vs. time in
 seconds is given above. The ruler is calibrated in inches and 0 is in the
 center of the ruler. $BR
    Enter the letters for the intervals which correspond
